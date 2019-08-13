@@ -22,4 +22,3 @@ solist.sort()
 for x in solist:
     print (x)'''
 
-111
