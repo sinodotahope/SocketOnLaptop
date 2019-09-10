@@ -6,7 +6,7 @@ import socket,sys,time
 port = 51423
 host = 'localhost'
 
-data = "x"*10485760
+data = "xxx"
 
 print("Creating socket...")
 try:

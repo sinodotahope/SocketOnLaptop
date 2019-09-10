@@ -1,10 +1,10 @@
 #DNS解析域名成IP地址
-'''import sys,socket
+import sys,socket
 result = socket.getaddrinfo("www.jingdong.com",None,0,socket.SOCK_STREAM)
 
-print(result)'''
+print(result)
 
-
+'''
 #反向根据查找域名
 import sys,socket
 num=1
@@ -17,7 +17,7 @@ while 1:
         #Display the looked-up hostname
 
         print("Primary hostname:")
-        print(result)
+        print(result[0])
 
         #Display the list of available addresses that is also returned
         print("\nAddresser:")
@@ -26,4 +26,4 @@ while 1:
 
     except socket.herror as e:
         print("Couldn't look up name:",e)
-    num+=1
+    num+=1'''
